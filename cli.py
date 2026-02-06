@@ -1,7 +1,7 @@
 import asyncio
 import argparse
-from client_manager import ClientManager
-from order import OrderManager
+from bot.client import ClientManager
+from bot.orders import OrderManager
 
 async def main():
     parser = argparse.ArgumentParser(description="Trading Bot CLI")
