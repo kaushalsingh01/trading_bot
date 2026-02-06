@@ -1,7 +1,7 @@
 import os
 from dotenv import load_dotenv
 from binance import AsyncClient
-from logging_config import LogManager
+from bot.logging_config import LogManager
 
 class ClientManager:
     def __init__(self, client: AsyncClient, logger):
