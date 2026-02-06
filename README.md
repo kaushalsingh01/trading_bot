@@ -3,7 +3,7 @@
 - Supports **Market**, **Limit**, and **Stop-Market** orders.
 - **Balance check** for Futures account.
 - Input Validation
-- Graceful error handling for common Binance API errors
+- Error handling for common Binance API errors
 
 ---
 
@@ -85,7 +85,7 @@ USDT: 10000.0 (available: 10000.0)
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 trading_bot/
