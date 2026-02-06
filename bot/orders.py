@@ -4,10 +4,10 @@ from binance.enums import (
     SIDE_SELL,
     ORDER_TYPE_MARKET,
     ORDER_TYPE_LIMIT,
-    ORDER_TYPE_STOP_MARKET,
     TIME_IN_FORCE_GTC
 )
 from bot.logging_config import LogManager
+ORDER_TYPE_STOP_MARKET = "STOP_MARKET"
 
 class Orders:
     def __init__(self, client: AsyncClient):
